@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color:#2f3136;
+  background-size: cover;
+}
+.description {
+  width: 450px;
+  max-width: 100%; 
+  height: auto;
+  background: #202225;
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 12%;
+  color: #dcddde;
+  font-family: sans-serif;
+}
+.description h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100
+}
+.description h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.description .link{
+  color: #dcddde;
+  text-decoration: none;
+  font-weight: bold;
+}
+.description .link:hover{
+  color: #b8b3b2;
+  text-decoration: none;
+}
+
+@media screen and (max-device-width: 1040px) {
+    #main { 
+      width:80%;
+      margin-top: 28%;
+    };
+}
+
+@media screen and (max-device-width: 768px) {
+    #main { 
+      width:60%; 
+      margin-top: 13%;
+    };
+}
